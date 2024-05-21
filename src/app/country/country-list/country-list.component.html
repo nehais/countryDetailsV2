@@ -59,7 +59,7 @@
             <!-- Map Column -->
             <ng-container matColumnDef="flags">
                 <th mat-header-cell *matHeaderCellDef> Flag </th>
-                <td mat-cell *matCellDef="let element"><img width="80" height="50" src={{element.flags.png}}/></td>
+                <td mat-cell *matCellDef="let element"><img width="80" height="50" class="flag" src={{element.flags.png}}/></td>
             </ng-container>            
 
             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
